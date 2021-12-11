@@ -15,6 +15,8 @@ shopButton = driver.find_element_by_css_selector("a[href*='shop']")
 driver.execute_script("arguments[0].click();",shopButton)
 
 driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
+print("This is the source code for java script executer by rahul Shetty")
+
 
 
 
