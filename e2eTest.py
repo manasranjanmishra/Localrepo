@@ -28,7 +28,7 @@ driver.find_element_by_xpath("//div[@class='checkbox checkbox-primary']").click(
 driver.find_element_by_css_selector("[type='submit']").click()
 successText = driver.find_element_by_class_name("alert-success").text
 
-assert "Success! Thank you!" in successText
+assert "Success!" in successText
 
 driver.get_screenshot_as_file("screen.png")
 
